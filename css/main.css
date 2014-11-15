@@ -146,6 +146,7 @@ img { display: block; max-width: 100%; }
 .follow-along { margin-bottom: 1.5em; }
 .fb-box {
   width: 190px;
+  margin: 0 auto;
 }
 .fb-box * {
   width: 100% !important;
@@ -235,9 +236,6 @@ hr {
   .follow-along .col {
     float: left;
     width: 33.3%;
-  }
-  .fb-box {
-    margin: 0 auto;
   }
   .follow-along .col:first-child .fb-box {
     margin: 0;
