@@ -215,6 +215,7 @@ hr {
   .content-wrap { margin: 0 2em; }
   .col-1-2, .col-2-2 { float: left; width: 48%; margin-bottom: 2em; }
   .col-2-2 { float: right; }
+  .shop-hours { font-size: 1.1em; }
   .shop-hours span {
     display: inline-block;
     margin-left: 0.5em;
@@ -249,7 +250,7 @@ hr {
   h1 { font-size: 5em; }
   .shop-details { font-size: 2em; }
   .social-sharing .col { float: left; width: 33.33%; }
-  .shop-hours { font-size: 1.1em; max-width: 40em; }
+  .shop-hours { font-size: 1.2em; max-width: 33em; }
   .about { font-size: 1.2em; }
 }
 
