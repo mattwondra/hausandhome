@@ -39,6 +39,13 @@
 }
 
 html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
   background: #333;
   font-size: 100%;
   font-family: 'quicksandregular', Helvetica Neue, Arial, Helvetica;
@@ -175,6 +182,15 @@ img { display: block; max-width: 100%; }
   font-weight: normal;
 }
 
+.gallery {
+  margin: 0 -0.718% 2em;
+}
+
+.gallery .col {
+  width: 33.33%;
+  float: left;
+  padding: 0 0.718% 1.44%;
+}
 
 hr {
   -moz-box-sizing: content-box;
@@ -194,18 +210,22 @@ hr {
     float: left;
     width: 50%;
   }
-  
+
   .shop-hours {
     font-size: 1em;
   }
-  .about {
+  /*.about {
     float: left;
     margin-right: 220px;
-  }
-  .follow-along {
+  }*/
+  /*.follow-along {
     float: left;
     margin-left: -190px;
     width: 190px;
+  }*/
+
+  .gallery .col {
+    width: 25%;
   }
 }
 
@@ -220,20 +240,20 @@ hr {
     display: inline-block;
     margin-left: 0.5em;
   }
-  
+
   .about {
     font-size: 1.1em;
     margin: 0 0 2em;
-    float: none;
+    /*float: none;*/
   }
-  
+
   .follow-along {
-    width: auto;
-    float: none;
+    /*width: auto;
+    float: none;*/
     margin: 0 auto 1.5em;
     max-width: 40em;
   }
-  
+
   .follow-along .col {
     float: left;
     width: 33.3%;
@@ -255,3 +275,6 @@ hr {
 }
 
 
+#sboxPrev {
+  left: 0;
+}
